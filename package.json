@@ -1,0 +1,23 @@
+{
+  "name": "social-wall",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "migrate": "drizzle-kit migrate",
+    "generate": "drizzle-kit generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.1",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.26.2-4cb1bdb",
+    "drizzle-orm": "^0.35.3-4cb1bdb",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.2"
+  }
+}
